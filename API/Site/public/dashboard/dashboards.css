@@ -1,0 +1,197 @@
+.janela {
+  height: 88vh;
+  width: 320px;
+  position: fixed;
+}
+
+.hello {
+  background-color: #BEC4ED;
+  border-radius: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  padding: 18px;
+  width: 270px;
+}
+
+.fundo {
+  display: flex;
+  height: auto;
+}
+
+.fundo5 {
+  height: 88vh;
+  width: 320px;
+  padding-left: 30px;
+}
+
+/* pagina graficos */
+
+.dash {
+  width: 75%;
+  left: 20%;
+  height: auto;
+  background-color: #BEC4ED;
+  border-radius: 10px;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 1%;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dash2 {
+  width: 90%;
+  top: 0;
+  left: 20%;
+  height: 85vh;
+  background-color: #BEC4ED;
+  border-radius: 10px;
+  margin-right: 4%;
+  margin-left: 4%;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.regua {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.totalviagens {
+  background-color: #69418B;
+  border-radius: 20px;
+  border: 2px solid #BEC4ED;
+  color: #BEC4ED;
+}
+
+.totalviagensplan {
+  background-color: #69418B;
+  border-radius: 20px;
+  border: 2px solid #BEC4ED;
+  color: #BEC4ED;
+}
+
+.maisvisitados {
+  background-color: #69418B;
+  border-radius: 20px;
+  border: 2px solid #BEC4ED;
+  color: #BEC4ED;
+}
+
+.item-regua {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards {
+  display: flex;
+  height: 500px;
+  color: #BEC4ED;
+  margin-left: 15%;
+}
+
+.cards h1 {
+  font-size: 30px;
+  width: 100%;
+  border-bottom: solid #69418B 1px;
+  text-align: left;
+  font-weight: lighter;
+  margin: 15px;
+  color: #69418B;
+
+}
+
+.cards2 {
+  display: flex;
+  height: 590px;
+  color: #BEC4ED;
+}
+
+.cards2 h1 {
+  font-size: 30px;
+  width: 100%;
+  border-bottom: solid #69418B 1px;
+  text-align: left;
+  font-weight: lighter;
+  margin: 15px;
+  color: #69418B;
+
+}
+
+.card {
+  margin: 2%;
+  width: 500px;
+  flex-wrap: wrap;
+  display: flex;
+  height: 280px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: left;
+  color: #69418B;
+}
+
+
+
+#viagens_cards,
+#data_cards,
+#data_cards2,
+#viagens_cards2 {
+  margin: 2%;
+}
+
+.graph {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.graph2 {
+  width: 100%;
+  margin: auto;
+  height: 80%;
+  margin-left: 60px;
+}
+
+canvas {
+  width: 85% !important;
+  height: 100% !important;
+}
+
+.inserir {
+  padding-bottom: 2%;
+  margin: 10px;
+}
+
+.listar {
+  width: 500px;
+}
+
+.itens {
+  margin-top: 10%;
+  background-color: #69418B;
+  padding: 3%;
+  border-radius: 10px;
+  height: 420px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.itens h1 {
+  color: #BEC4ED;
+  margin-bottom: 10px;
+}
+.itens h2 {
+  color: #BEC4ED;
+  margin: 2px
+}

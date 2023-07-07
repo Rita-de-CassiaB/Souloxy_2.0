@@ -1,0 +1,408 @@
+/* Começo do cabeçalho */
+body {
+    margin: 0;
+    background: #BEC4ED;
+    width: 1519.2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 80px;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #69418B;
+}
+
+ul {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.titulo {
+    color: #69418B;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar {
+    width: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Fim do cabeçalho */
+
+/* Começo do Banner */
+.a {
+    height: 4347px;
+    width: 100%;
+}
+
+.fundo {
+    height: 1500px;
+}
+
+.banner {
+    background-image: url("imgs/banner2.png");
+    width: auto;
+    height: 500px;
+
+}
+
+
+
+.caixa_conteiner {
+    height: 75px;
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 50px;
+}
+
+.b1 a {
+    background-color: #1C3720;
+    border-radius: 10px;
+    color: #BEC4ED;
+    text-align: center;
+    padding: 19px;
+    font-size: 22px;
+    margin: 20px;
+
+}
+
+.b1 a:hover {
+    background-color: #69418B;
+    width: 200px;
+    margin-top: 10px;
+    color: #BEC4ED;
+    padding: 15px;
+    border: 1px solid rgb(190, 196, 237);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#linha-horizontal {
+    margin: 50px;
+    width: auto;
+    justify-content: center;
+    border: 1px solid #1C3720;
+}
+
+/* Fim do banner */
+
+/* Começo do Social */
+
+.b {
+    background-color: #1C3720;
+    height: 720px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.container_empresa .box1 {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+
+.container_empresa .box2 img {
+    height: 300px;
+    width: 300px;
+}
+
+.container_empresa .box img {
+    height: 300px;
+    width: 300px;
+}
+
+.texto {
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    background-color: #BEC4ED;
+    text-align: center;
+    align-items: center;
+    border-style: double;
+    border-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    color: #1C3720;
+    padding: 5px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.container_empresa .box2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.container_empresa img {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+.box img {
+    width: 200px;
+}
+
+
+.social {
+    display: flex;
+    padding-top: 1%;
+}
+
+.social .container .boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.texto2 {
+    width: 350px;
+    height: 350px;
+    font-size: 27px;
+    background-color: #1C3720;
+    text-align: center;
+    align-items: center;
+    border-style: double;
+    border-color: #BEC4ED;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    color: #BEC4ED;
+    text-indent: 5%;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+}
+/* Final do Social */
+/* Começo Linha da Vida */
+.c {
+    background-image: url("imgs/Minha\ Linha\ da\ Vida.png") ;
+    height: 720px;
+}
+/* Final da Linha da Vida */
+/* Começo Identidade Visual */
+.d {
+    background-color: #69418B;
+    height: 720px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/* Final Identidade Visual */
+/* Começo SocioEmocional */
+
+.e {
+    background-color: #1C3720;
+    height: 720px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* Final do SocioEmocional */
+/* Começo Carrosel */
+
+.Carrossel {
+    height: 700px;
+    display: block;
+    margin-top: 3%;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    30% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    40% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
+
+.pic-ctn {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 15vh;
+    display: flex;
+}
+
+.pic-ctn>img {
+    position: absolute;
+    top: 130px;
+    height: 400px;
+    left: calc(5.5%);
+    opacity: 0;
+    animation: display 20s infinite;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:nth-child(1) {
+    animation-delay: 1s;
+}
+
+img:nth-child(2) {
+    animation-delay: 2s;
+}
+
+img:nth-child(2) {
+    animation-delay: 3s;
+}
+
+img:nth-child(3) {
+    animation-delay: 5s;
+}
+
+img:nth-child(4) {
+    animation-delay: 8s;
+}
+
+img:nth-child(5) {
+    animation-delay: 11s;
+}
+
+img:nth-child(6) {
+    animation-delay: 14s;
+}
+
+img:nth-child(7) {
+    animation-delay: 17s;
+}
+
+img:nth-child(8) {
+    animation-delay: 20s;
+}
+
+img:nth-child(9) {
+    animation-delay: 22s;
+}
+
+img:nth-child(10) {
+    animation-delay: 24s;
+}
+
+/* sobre mim */
+
+.sobre_mim {
+    height: 700px;
+}
+
+.apresentacao {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #BEC4ED;
+    opacity: .4;
+    margin-top: 10px;
+}
+
+.texto3 {
+    margin: 1%;
+    font-size: 25px;
+    color: black;
+    text-indent: 5%;
+}
+
+.texto3 span{
+    font-size: 23px;
+    color: #1C3720;
+}
+
+.formulario {
+    display: flex;
+    width: 780px;
+    height: 670px;
+    background-color: #69418B;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 700px;
+}
+
+
+
+
+
+
+/* Final Carrosel */
+/* Começo do Footer */
+.footer .container2 {
+
+    background-color: #BEC4ED;
+    color: #69418B;
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+    justify-content: center;
+}

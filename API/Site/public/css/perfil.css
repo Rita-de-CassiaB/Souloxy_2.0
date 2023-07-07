@@ -1,0 +1,436 @@
+/* Começo do cabeçalho */
+body {
+    margin: 0;
+    background-image: url(../css/imgs/gif\ estrela.gif);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.usuario h3{
+    width: 300px;
+    text-align: center;
+}
+
+.quadro {
+    position: relative;
+    width: 64%;
+    height: 50vh;
+    background-color: #BEC4ED;
+    border-radius: 10px;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-top: 3%;
+    justify-content: center;
+    padding: 2%;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slides {
+    overflow-x: auto;
+}
+
+.imagens {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 25px;
+}
+
+.item img {
+    width: 300px;
+    height: auto;
+}
+
+
+.item {
+    width: 1000px;
+    height: 50vh;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+}
+
+.current-item {
+    opacity: 1;
+}
+
+.arrow-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.9;
+    cursor: pointer;
+    border: none;
+}
+
+
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 95.5%;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+    opacity: 0.9;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.slides::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .slides {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .cyan {
+    background: cyan;
+  }
+  
+  .deeppink {
+    background: deeppink;
+  }
+  
+  .turquoise {
+    background: turquoise;
+  }
+  
+  .darkblue {
+    background: darkblue;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  
+
+.texto {
+    width: 280px;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #BEC4ED
+}
+
+
+.container5 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 30px;
+    align-items: baseline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 80px;
+    align-items: baseline;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    height: 80px;
+
+}
+
+.container3 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 80px;
+    align-items: flex-start;
+
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #BEC4ED;
+}
+
+ul {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.titulo {
+    color: #BEC4ED;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar {
+    width: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    width: 500px;
+    text-align: center;
+    color: #BEC4ED;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background-image: url(../css/imgs/gif\ estrela.gif);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #69418B;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 1px solid #BEC4ED;
+    /* creates padding around scroll thumb */
+}
+
+
+/* Final do Cabeçalho */
+/* Começo do Banner */
+
+
+.bannerCad {
+    height: 780px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.bannerLog {
+    height: 700px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.banner2 {
+    height: 520px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.banner4 {
+    height: 700px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.bannerAuto {
+    height: auto;
+}
+
+.fundo1 {
+    height: 800px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #69418B;
+}
+
+.fundo2 {
+    height: 600px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #69418B;
+}
+
+.fundo3 {
+    height: 980px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #69418B;
+}
+
+.fundo3T {
+    height: 150px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #69418B;
+}
+
+.fundo4T {
+    height: 105px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #69418B;
+}
+
+.fundo4 {
+    display: flex;
+    height: 70vb;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #69418B;
+}
+
+
+
+.ConfirmeD {
+    align-items: center;
+    width: auto;
+    padding: 5px;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.ConfirmeDB {
+    align-items: center;
+    width: auto;
+    padding: 5px;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+
+.ConfirmeD button {
+    background-color: #69418B;
+    width: 200px;
+    margin-top: 10px;
+    color: #BEC4ED;
+    padding: 15px;
+    border: 1px solid rgb(190, 196, 237);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    display: block;
+}
+
+.ConfirmeD button:hover {
+    background-color: #69418B;
+    width: 200px;
+    margin-top: 10px;
+    color: #BEC4ED;
+    padding: 15px;
+    border: 1px solid rgb(190, 196, 237);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.ConfirmeDB button {
+    background-color: #69418B;
+    width: 200px;
+    margin-top: 10px;
+    color: #BEC4ED;
+    padding: 15px;
+    border: 1px solid rgb(190, 196, 237);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    display: block;
+}
+
+.ConfirmeDB button:hover {
+    background-color: #69418B;
+    width: 200px;
+    margin-top: 10px;
+    color: #BEC4ED;
+    padding: 15px;
+    border: 1px solid rgb(190, 196, 237);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.ConfirmeE {
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    padding: 20px;
+    height: 400px;
+    margin-left: -70px;
+    display: flex;
+}
+
+.ConfirmeE button {
+    background-color: #69418B;
+    width: 200px;
+    margin-top: 10px;
+    color: #BEC4ED;
+    padding: 15px;
+    border: 1px solid rgb(190, 196, 237);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    display: block;
+
+}
+
+.ConfirmeE button:hover {
+    background-color: #69418B;
+    width: 200px;
+    margin-top: 10px;
+    color: #BEC4ED;
+    padding: 15px;
+    border: 1px solid rgb(190, 196, 237);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Final do Social */
+/* Começo do Footer */
+
+
+.footer {
+    height: auto;
+    color: #BEC4ED;
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+    background-color: #1C3720;
+}
+
+.footer .container {
+    height: auto;
+    justify-content: center;
+}
